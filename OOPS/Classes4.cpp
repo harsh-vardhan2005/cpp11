@@ -1,4 +1,6 @@
 #include<iostream>
+#include<string>
+#include<string.h>
 using namespace std;
 // #include "Hero.cpp"
 
@@ -69,7 +71,7 @@ class Hero{
     }
 
     void setName(char name[]){
-        strcpy(this -> name, name);
+        // strcpy=(this -> name, name);
     }
 
 };
