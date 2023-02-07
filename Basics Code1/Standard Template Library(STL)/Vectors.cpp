@@ -12,11 +12,21 @@ using namespace std;
 int main(){
 
     vector<int> arr;
-    for(int i = 0; i<5; i++){
-        cin>>arr[i];
+    //Input
+    for(int i = 1; i<=5; i++){
+        arr.push_back(i);
     }
-    for(int i = 0; i<5; i++){
-        cout<<arr[i];
+
+    //Output
+    for(auto i = arr.begin(); i!=arr.end(); ++i){
+        cout << *i << " ";
+    }
+
+    cout<<endl;
+
+    //Reverse
+    for(auto i = arr.rbegin(); i!=arr.rend(); ++i){
+        cout << *i << " ";
     }
     return 0;
 
