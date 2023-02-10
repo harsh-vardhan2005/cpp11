@@ -1,16 +1,19 @@
 #include<stdio.h>
+#include<ctype.h>
 
+
+
+int simpleinterest(int p,int t,int r){
+    int SI = (p*t*r)/100;
+    return SI;
+}
 
 
 
 int main(){
-
-    printf("'C'";)
-    // int a,b;
-    // // 6 9 
-    // scanf("%d%d",&a,&b);
-    // a = a*b; //6*9=54
-    // b = a/b; // 54/9 = 6 
-    // a = a/b; // 54/6 = 9
+    int p,t,r;
+    scanf("%d %d %d", &p,&t,&r );
+    printf("%d",simpleinterest(p,t,r));
+    return 0;
 
 }
