@@ -17,22 +17,22 @@ int main () {
     cout << "9th " << *(arr+2) << endl;*/
 
 
-    // int i = 3;
-    // cout << i[arr] << endl;
+    int i = 3;
+   //  cout << i[arr] << endl;
 
 
 
    int temp[10] = {1,2,5};
-   cout << sizeof(temp) << endl;
-   cout << " 1st " <<  sizeof(*temp) << endl;
-   cout << " 2nd " <<  sizeof(&temp) << endl;
+   // cout << sizeof(temp) << endl;
+   // cout << " 1st " <<  sizeof(*temp) << endl;
+   // cout << " 2nd " <<  sizeof(&temp) << endl;
 
 
 
    int *ptr = &temp[0];
-   cout << sizeof(ptr) << endl ; //  output should be 8
-   cout << sizeof(*ptr) << endl ; // output should be 8
-   cout << sizeof(&ptr) << endl ; // output should be 4
+   // cout << sizeof(ptr) << endl ; //  output should be 8
+   // cout << sizeof(*ptr) << endl ; // output should be 8
+   // cout << sizeof(&ptr) << endl ; // output should be 4
 
 
 

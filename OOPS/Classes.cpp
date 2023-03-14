@@ -27,6 +27,7 @@ class Hero{
 
     void setHealth(int h,string name){
 
+        //setting password
         if(name=="somya"){
             health =  h;
         }  
@@ -45,7 +46,8 @@ int main(){
     Hero ramesh;
 
     ramesh.level = 'A';
-    string password = "somyajnr";
+    string password = "somya";
+    //is password is wrong it will throw an grabage value 
     ramesh.setHealth(45,password);//use setter
 
 

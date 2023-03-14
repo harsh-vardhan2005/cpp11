@@ -7,7 +7,7 @@ int main () {
 
     // cout << num << endl;
 
-    // // address of Operator - &
+    // // // address of Operator - &
 
     // cout <<" address of num is " << &num << endl;
 
@@ -26,11 +26,14 @@ int main () {
     // cout << " size of pointer is " << sizeof(ptr) << endl;
     // cout << " size of pointer is " << sizeof(p2) << endl;
 
-    int num1 = 5;
+   int num1 = 5;
 //    int a = num1;
-//    cout << "a before " << num1 << endl;
+
+//    cout << "a before " << a << endl;
+//    cout << "num before " << num1 << endl;
 //    a++;
-//    cout << "a after " << num1 << endl;
+//    cout << "num after " << num1 << endl;
+//    cout << "a after " << a << endl;
 
 
    int *p  = &num1;
@@ -46,9 +49,9 @@ int main () {
    //important concept
    int i = 3;
    int *t = &i;
-   //cout <<  (*t)++ << endl;
-   *t = *t +1;
-    // cout << *t << endl;
+//    cout <<  (*t)++ << endl;
+//    *t = *t +1;
+//     cout << *t << endl;
     cout << " before t " << t << endl;
     t = t + 1;
     cout << " after t " << t << endl;
